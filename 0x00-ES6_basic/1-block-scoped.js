@@ -1,10 +1,15 @@
+/**
+ * Output array with two boolean values based on the input parameter.
+ * @param {Boolean}
+ * @returns {Array}
+ */
 export default function taskBlock(trueOrFalse) {
-  let task = false;
-  let task2 = true;
+  const task = false;
+  const task2 = true;
 
   if (trueOrFalse) {
-    task = true;
-    task2 = false;
+    const task = true;
+    const task2 = false;
   }
 
   return [task, task2];
