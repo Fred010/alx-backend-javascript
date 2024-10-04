@@ -1,15 +1,15 @@
 /**
  * Output array with two boolean values based on the input parameter.
- * @param {Boolean}
+ * @param {Boolean} trueOrFalse
  * @returns {Array}
  */
 export default function taskBlock(trueOrFalse) {
-  let task = false;
-  let task2 = true;
+  const task = false;
+  const task2 = true;
 
   if (trueOrFalse) {
-    task = true;
-    task2 = false;
+    const task = true; // eslint-disable-line no-unused-vars
+    const task2 = false; // eslint-disable-line no-unused-vars
   }
 
   return [task, task2];
