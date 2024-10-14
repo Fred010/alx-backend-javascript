@@ -1,4 +1,3 @@
-# TypeScript
 
 TypeScript is a _superset_ of JavaScript that adds static typing to the language. This allows you to catch potential errors and bugs early in the development process, improve code readability, and leverage better tooling support.
 
@@ -37,3 +36,4 @@ Compile TypeScript to JavaScript:On Bash
 * Enhanced Tooling Support: Many IDEs and editors offer advanced features like code completion, type checking, and debugging for TypeScript.
 * Increased Productivity: TypeScript's type safety and tooling support can help you write code faster and more efficiently.
 
+"README.md" 39L, 1819C                                                                                                    39,0-1        Bot
